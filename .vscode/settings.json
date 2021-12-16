@@ -1,0 +1,11 @@
+{
+    "[c]": {
+      "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "C_Cpp.clang_format_style": "file",
+    "C_Cpp.clang_format_fallbackStyle": "none",
+    "editor.rulers": [90],
+    "nrf52SDKPath": "D:/sdk/nRF5_SDK_12.3.0_d7731ad",
+    "userName": "root",
+    "group": "08"
+  }

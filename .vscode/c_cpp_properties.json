@@ -1,0 +1,46 @@
+{
+    "env": {
+        "nrf51SDKPath": "D:/sdk/nRF5_SDK_12.3.0_d7731ad",
+        "nrf51IncludePath": [
+            "${workspaceFolder}/**",
+            "${nrf51SDKPath}/**",
+            "${workspaceFolder}/pca10028/blank/config/",
+            "${workspaceFolder}/pca10028/blank/**",
+            "${nrf51SDKPath}/components/**",
+            "${nrf51SDKPath}/external/**"
+        ],
+        "defines": [
+            "_DEBUG",
+            "UNICODE",
+            "_UNICODE",
+            "NRF51"
+        ],
+        "intelliSenseMode": "clang-x64",
+        "armCompilerPath": "C:/Program Files (x86)/GNU Tools Arm Embedded/7 2018-q2-update/bin"
+    },
+    "configurations": [
+        {
+            "name": "PCA10028",
+            "includePath": [
+                "${nrf51IncludePath}"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/pca10028/blank/config/sdk_config.h"
+            ],
+            "defines": [
+                "DAPP_TIMER_V2",
+                "DAPP_TIMER_V2_RTC1_ENABLED",
+                "BOARD_PCA10028",
+                "CONFIG_GPIO_AS_PINRESET",
+                "FLOAT_ABI_HARD",
+                "NRF51822_XXAA"
+            ],
+            "compilerPath": "${armCompilerPath}",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+
+    ],
+    "version": 4
+}
